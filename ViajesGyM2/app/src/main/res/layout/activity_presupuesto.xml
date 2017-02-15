@@ -1,0 +1,246 @@
+<!--
+  Copyright 2012 The Android Open Source Project
+
+  Licensed under the Apache License, Version 2.0 (the "License");
+  you may not use this file except in compliance with the License.
+  You may obtain a copy of the License at
+
+      http://www.apache.org/licenses/LICENSE-2.0
+
+  Unless required by applicable law or agreed to in writing, software
+  distributed under the License is distributed on an "AS IS" BASIS,
+  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  See the License for the specific language governing permissions and
+  limitations under the License.
+  -->
+
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back4" >
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="1"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="41dp"
+                android:textAppearance="@android:style/TextAppearance.DeviceDefault"
+                android:id="@+id/TextView"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:text="Ahorros GyM (Total): 657,75€"
+                android:fontFamily="sans-serif-smallcaps"
+                android:textSize="18sp"
+                android:lineSpacingExtra="12sp"
+                android:textAlignment="center"
+                android:textAllCaps="false"
+                android:textStyle="normal|bold" />
+
+            <TextView
+                android:text="Pagado:"
+                android:layout_width="267dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView12"
+                android:layout_marginLeft="70dp"
+                android:textStyle="normal|bold" />
+            <TextView
+                android:text="Billete de Avión IDA: 50.98"
+                android:layout_width="340dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView12"
+                android:layout_marginLeft="30dp"
+                android:textAlignment="textEnd" />
+            <TextView
+                android:text="Billete de Avión VUELTA: 77.50"
+                android:layout_width="340dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView12"
+                android:layout_marginLeft="30dp"
+                android:textAlignment="textEnd" />
+            <TextView
+                android:text="Concierto Konzerthaus: 90.00"
+                android:layout_width="340dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView12"
+                android:layout_marginLeft="30dp"
+                android:textAlignment="textEnd" />
+            <TextView
+                android:text="Bus Brat-Prag: 28.00"
+                android:layout_width="340dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView12"
+                android:layout_marginLeft="30dp"
+                android:textAlignment="textEnd" />
+            <TextView
+                android:text="Bus Prag-Vien: 30.00"
+                android:layout_width="340dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView12"
+                android:layout_marginLeft="30dp"
+                android:textAlignment="textEnd" />
+            <TextView
+                android:text="Bus Vien-Buda: 22.00"
+                android:layout_width="340dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView12"
+                android:layout_marginLeft="30dp"
+                android:textAlignment="textEnd" />
+            <TextView
+                android:text="Bus Buda-Brat: 22.00"
+                android:layout_width="340dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView12"
+                android:layout_marginLeft="30dp"
+                android:textAlignment="textEnd" />
+            <TextView
+                android:text="Tour de la Cerveza:   5.60"
+                android:layout_width="340dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView12"
+                android:layout_marginLeft="30dp"
+                android:textAlignment="textEnd" />
+            <TextView
+                android:text="Total Pagado: 326.08"
+                android:layout_width="340dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView12"
+                android:layout_marginLeft="30dp"
+                android:textAlignment="textEnd"
+                android:textStyle="normal|bold" />
+            <TextView
+                android:text="Restante: 331.67"
+                android:layout_width="340dp"
+                android:layout_height="31dp"
+                android:id="@+id/textView12"
+                android:layout_marginLeft="30dp"
+                android:textAlignment="textEnd"
+                android:textStyle="normal|bold" />
+
+            <TextView
+                android:text="Pendiente de pago:"
+                android:layout_width="267dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView12"
+                android:layout_marginLeft="70dp"
+                android:textStyle="normal|bold" />
+            <TextView
+                android:text="Hotel Bratislava: 35.00"
+                android:layout_width="340dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView12"
+                android:layout_marginLeft="30dp"
+                android:textAlignment="textEnd" />
+            <TextView
+                android:text="Hotel Praga: 65.00"
+                android:layout_width="340dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView12"
+                android:layout_marginLeft="30dp"
+                android:textAlignment="textEnd" />
+            <TextView
+                android:text="Tour de la Cerveza (Praga): 22.40"
+                android:layout_width="340dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView12"
+                android:layout_marginLeft="30dp"
+                android:textAlignment="textEnd" />
+            <TextView
+                android:text="Hotel Viena: 44.00"
+                android:layout_width="340dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView12"
+                android:layout_marginLeft="30dp"
+                android:textAlignment="textEnd" />
+            <TextView
+                android:text="Hotel Budapest: 28.00"
+                android:layout_width="340dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView12"
+                android:layout_marginLeft="30dp"
+                android:textAlignment="textEnd" />
+
+            <TextView
+                android:text="Total Pendiente de Pago: 194.40"
+                android:layout_width="340dp"
+                android:layout_height="33dp"
+                android:id="@+id/textView12"
+                android:layout_marginLeft="30dp"
+                android:textAlignment="textEnd"
+                android:textStyle="normal|bold" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="33dp"
+                android:textAppearance="@android:style/TextAppearance.DeviceDefault"
+                android:id="@+id/TextView"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:text="Ahorros (Disponible): 137.27"
+                android:fontFamily="sans-serif-smallcaps"
+                android:textSize="18sp"
+                android:lineSpacingExtra="12sp"
+                android:textAlignment="center"
+                android:textAllCaps="false"
+                android:textStyle="normal|bold" />
+            <TextView
+                android:text="Presupuesto Diario: 17.15"
+                android:layout_width="340dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView12"
+                android:layout_marginLeft="30dp"
+                android:textAlignment="textStart"
+                android:textStyle="normal|bold" />
+
+            <TextView
+                android:text="Estimación de gasto en transporte: 5.00/día"
+                android:layout_width="340dp"
+                android:layout_height="28dp"
+                android:id="@+id/textView12"
+                android:layout_marginLeft="30dp"
+                android:textAlignment="textStart" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="33dp"
+                android:textAppearance="@android:style/TextAppearance.DeviceDefault"
+                android:id="@+id/TextView"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:text="Ticket Restaurant: 129.93"
+                android:fontFamily="sans-serif-smallcaps"
+                android:textSize="18sp"
+                android:lineSpacingExtra="12sp"
+                android:textAlignment="center"
+                android:textAllCaps="false"
+                android:textStyle="normal|bold" />
+            <TextView
+                android:text="Presupuesto Diario: 16.24"
+                android:layout_width="340dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView12"
+                android:layout_marginLeft="30dp"
+                android:textAlignment="textStart"
+                android:textStyle="normal|bold" />
+
+
+        </LinearLayout>
+    </ScrollView>
+    <!-- This initially-hidden ImageView will hold the expanded/zoomed version of the
+         images above. Without transformations applied, it takes up the entire screen.
+         To achieve the "zoom" animation, this view's bounds are animated from the
+         bounds of the thumbnail buttons above, to its final laid-out bounds. The implementation
+         of this animation is in the ZoomActivity class. -->
+
+</FrameLayout>

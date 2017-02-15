@@ -1,0 +1,78 @@
+<!--
+  Copyright 2012 The Android Open Source Project
+
+  Licensed under the Apache License, Version 2.0 (the "License");
+  you may not use this file except in compliance with the License.
+  You may obtain a copy of the License at
+
+      http://www.apache.org/licenses/LICENSE-2.0
+
+  Unless required by applicable law or agreed to in writing, software
+  distributed under the License is distributed on an "AS IS" BASIS,
+  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  See the License for the specific language governing permissions and
+  limitations under the License.
+  -->
+
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+	android:background="@drawable/back4">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="1"
+            android:orientation="vertical">
+
+
+            <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/TextView"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:text="JUEVES 23: Turismo Libre en Budapest"
+				android:layout_marginLeft="50dp"
+				android:layout_weight="0.40"
+				android:textAppearance="@android:style/TextAppearance.DeviceDefault.DialogWindowTitle"
+				android:fontFamily="sans-serif-smallcaps"
+				android:textStyle="normal|bold"
+				android:textSize="17sp" />
+
+		<TextView
+			android:text="Regreso al Hotel: Metro M3 - Bus 9,15,115,83,909,914/A,950/A,979/A - Tranvía 47/B,49"
+			android:layout_width="265dp"
+			android:layout_height="match_parent"
+			android:id="@+id/textView7"
+			android:layout_marginLeft="70dp" />
+			
+		<com.viajes.gym.viajesgym.TouchHighlightImageButton
+            android:id="@+id/thumb_button_3"
+            android:layout_width="150dp"
+            android:layout_height="125dp"
+            android:layout_marginLeft="120dp"
+            android:src="@drawable/buda2"
+            android:scaleType="centerCrop"/>
+
+        </LinearLayout>
+    </ScrollView>
+	<!-- This initially-hidden ImageView will hold the expanded/zoomed version of the
+         images above. Without transformations applied, it takes up the entire screen.
+         To achieve the "zoom" animation, this view's bounds are animated from the
+         bounds of the thumbnail buttons above, to its final laid-out bounds. The implementation
+         of this animation is in the ZoomActivity class. -->
+    <ImageView
+        android:id="@+id/expanded_image"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="invisible" />
+</FrameLayout>

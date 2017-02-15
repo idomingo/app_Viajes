@@ -1,0 +1,108 @@
+<!--
+  Copyright 2012 The Android Open Source Project
+
+  Licensed under the Apache License, Version 2.0 (the "License");
+  you may not use this file except in compliance with the License.
+  You may obtain a copy of the License at
+
+      http://www.apache.org/licenses/LICENSE-2.0
+
+  Unless required by applicable law or agreed to in writing, software
+  distributed under the License is distributed on an "AS IS" BASIS,
+  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  See the License for the specific language governing permissions and
+  limitations under the License.
+  -->
+
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back4">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="1"
+            android:orientation="vertical">
+
+
+            <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/TextView"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:text="MARTES 21: Turismo Libre en Viena"
+                android:layout_marginLeft="50dp"
+                android:layout_weight="0.40"
+                android:textAppearance="@android:style/TextAppearance.DeviceDefault.DialogWindowTitle"
+                android:fontFamily="sans-serif-smallcaps"
+                android:textStyle="normal|bold"
+                android:textSize="18sp" />
+		
+		<com.viajes.gym.viajesgym.TouchHighlightImageButton
+            android:id="@+id/thumb_button_2"
+            android:layout_width="150dp"
+            android:layout_height="125dp"
+            android:layout_marginLeft="120dp"
+            android:src="@drawable/viena3"
+            android:scaleType="centerCrop"/>
+
+            <TextView
+        android:text="18:30 - Metro Linea U3 hasta Landstrasse - Metro U4 hasta Stadtpark"
+        android:layout_width="270dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView2"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="70dp" />
+		
+            <TextView
+        android:text="@string/konzerthaus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView3"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="90dp"
+                android:contentDescription="https://www.google.es/maps/place/Konzerthaus+de+Viena/@48.2006054,16.3754344,17z/data=!3m1!4b1!4m5!3m4!1s0x476d0777a6aced9d:0xb01ef6d90ea453a7!8m2!3d48.2006018!4d16.3776231?hl=es"
+                android:autoLink="map"
+                android:contextClickable="true"
+                android:clickable="true" />
+		
+		<com.viajes.gym.viajesgym.TouchHighlightImageButton
+            android:id="@+id/thumb_button_1"
+            android:layout_width="150dp"
+            android:layout_height="125dp"
+            android:layout_marginLeft="120dp"
+            android:src="@drawable/viena2"
+            android:scaleType="centerCrop"/>
+
+
+            <TextView
+			android:text="Ruta regreso al hotel (Westbahnhof): Metro U3,U6 - Tranvía 6,9,18,52,58"
+			android:layout_width="265dp"
+			android:layout_height="match_parent"
+			android:id="@+id/textView9"
+			android:layout_marginLeft="50dp" />
+
+        </LinearLayout>
+    </ScrollView>
+	<!-- This initially-hidden ImageView will hold the expanded/zoomed version of the
+         images above. Without transformations applied, it takes up the entire screen.
+         To achieve the "zoom" animation, this view's bounds are animated from the
+         bounds of the thumbnail buttons above, to its final laid-out bounds. The implementation
+         of this animation is in the ZoomActivity class. -->
+    <ImageView
+        android:id="@+id/expanded_image"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="invisible" />
+
+</FrameLayout>

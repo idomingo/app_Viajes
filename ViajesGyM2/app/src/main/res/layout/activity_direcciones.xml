@@ -1,0 +1,280 @@
+<!--
+  Copyright 2012 The Android Open Source Project
+
+  Licensed under the Apache License, Version 2.0 (the "License");
+  you may not use this file except in compliance with the License.
+  You may obtain a copy of the License at
+
+      http://www.apache.org/licenses/LICENSE-2.0
+
+  Unless required by applicable law or agreed to in writing, software
+  distributed under the License is distributed on an "AS IS" BASIS,
+  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  See the License for the specific language governing permissions and
+  limitations under the License.
+  -->
+
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+	android:background="@drawable/back4">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+        <LinearLayout
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:weightSum="1"
+android:orientation="vertical">
+
+
+<TextView
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:id="@+id/TextView"
+android:layout_alignParentLeft="true"
+android:layout_alignParentStart="true"
+android:text="BRATISLAVA"
+android:layout_marginLeft="50dp"
+android:layout_weight="0.40"
+android:textAppearance="@android:style/TextAppearance.DeviceDefault.DialogWindowTitle"
+android:fontFamily="sans-serif-smallcaps"
+android:textStyle="normal|bold"
+android:textSize="18sp"
+    android:autoLink="map" />
+<TextView
+android:text="País: Eslovaquia. Idioma: Eslovaco. Moneda: Euro"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:id="@+id/textView1"
+android:layout_marginLeft="20dp"
+android:layout_weight="0.14" />
+<TextView
+android:text="Pensión Elisabeth Old Town:  2 Klemensova, Stare Mesto"
+android:layout_width="wrap_content"
+android:layout_height="match_parent"
+android:id="@+id/textView2"
+android:layout_marginLeft="30dp" />
+
+            <TextView
+                android:text="https://www.booking.com/hotel/sk/elisabeth-old-town.en-gb.html"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView"
+                android:autoLink="web"
+                android:layout_marginLeft="30dp"
+                android:textSize="12sp" />
+
+            <TextView
+                android:text="Safarikovo nam: Tranvía 1, 3, 8"
+                android:layout_width="265dp"
+                android:layout_height="match_parent"
+                android:id="@+id/textView6"
+                android:layout_marginLeft="50dp" />
+            <TextView
+                android:text="Mala Scena: Bus 28, 50, 70, 78, 502"
+                android:layout_width="234dp"
+                android:layout_height="match_parent"
+                android:id="@+id/textView6"
+                android:layout_marginLeft="50dp" />
+
+<com.viajes.gym.viajesgym.TouchHighlightImageButton
+android:id="@+id/thumb_button_1"
+android:layout_width="150dp"
+android:layout_height="125dp"
+android:layout_marginLeft="120dp"
+android:src="@drawable/brat5"
+android:scaleType="centerCrop"/>
+
+<TextView
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:id="@+id/TextView4"
+android:layout_alignParentLeft="true"
+android:layout_alignParentStart="true"
+android:text="PRAGA"
+android:layout_marginLeft="50dp"
+android:layout_weight="0.40"
+android:textAppearance="@android:style/TextAppearance.DeviceDefault.DialogWindowTitle"
+android:fontFamily="sans-serif-smallcaps"
+android:textStyle="normal|bold"
+android:textSize="18sp" />
+<TextView
+android:text="País: Rep.Checa. Idioma: Checo. Moneda: CZK"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:id="@+id/textView1"
+android:layout_marginLeft="30dp"
+android:layout_weight="0.14" />
+<TextView
+android:text="1€ = 27 CZK; 10€ = 270 CZK; "
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:id="@+id/textView1"
+android:layout_marginLeft="50dp"
+android:layout_weight="0.14" />
+<TextView
+android:text="100 CZK = 3,7€; 1000 CZK = 37€; "
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:id="@+id/textView1"
+android:layout_marginLeft="50dp"
+android:layout_weight="0.14" />
+
+<TextView
+android:text="City Central De Luxe Praga: Sokolská 21"
+android:layout_width="265dp"
+android:layout_height="match_parent"
+android:id="@+id/textView5"
+android:layout_marginLeft="70dp" />
+
+<TextView
+android:text="city-central.cz"
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:id="@+id/textView11"
+android:autoLink="web"
+android:layout_marginLeft="70dp" />
+
+<TextView
+android:text="I.P. Pavlova: Metro C - Bus 148,504,505,510,511,H1"
+android:layout_width="265dp"
+android:layout_height="match_parent"
+android:id="@+id/textView6"
+android:layout_marginLeft="90dp" />
+
+<com.viajes.gym.viajesgym.TouchHighlightImageButton
+android:id="@+id/thumb_button_2"
+android:layout_width="150dp"
+android:layout_height="125dp"
+android:layout_marginLeft="120dp"
+android:src="@drawable/pragametro"
+android:scaleType="centerCrop"/>
+
+<TextView
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:id="@+id/TextView7"
+android:layout_alignParentLeft="true"
+android:layout_alignParentStart="true"
+android:text="VIENA"
+android:layout_marginLeft="50dp"
+android:layout_weight="0.40"
+android:textAppearance="@android:style/TextAppearance.DeviceDefault.DialogWindowTitle"
+android:fontFamily="sans-serif-smallcaps"
+android:textStyle="normal|bold"
+android:textSize="18sp" />
+<TextView
+android:text="País: Austria. Idioma: Alemán. Moneda: Euro"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:id="@+id/textView1"
+android:layout_marginLeft="30dp"
+android:layout_weight="0.14" />
+
+<TextView
+android:text="Wombat City Hostel Viena: Mariahilfer Straße 137"
+android:layout_width="wrap_content"
+android:layout_height="match_parent"
+android:id="@+id/textView8"
+android:layout_marginLeft="70dp" />
+<TextView
+android:text="wombats-hostels.com"
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:id="@+id/textView11"
+android:autoLink="web"
+android:layout_marginLeft="70dp" />
+
+<TextView
+android:text="Westbahnhof: Metro U3,U6 - Tranvía 6,9,18,52,58"
+android:layout_width="265dp"
+android:layout_height="match_parent"
+android:id="@+id/textView9"
+android:layout_marginLeft="90dp" />
+
+<com.viajes.gym.viajesgym.TouchHighlightImageButton
+android:id="@+id/thumb_button_3"
+android:layout_width="150dp"
+android:layout_height="125dp"
+android:layout_marginLeft="120dp"
+android:src="@drawable/viena3"
+android:scaleType="centerCrop"/>
+
+<TextView
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:id="@+id/TextView7"
+android:layout_alignParentLeft="true"
+android:layout_alignParentStart="true"
+android:text="BUDAPEST"
+android:layout_marginLeft="50dp"
+android:layout_weight="0.40"
+android:textAppearance="@android:style/TextAppearance.DeviceDefault.DialogWindowTitle"
+android:fontFamily="sans-serif-smallcaps"
+android:textStyle="normal|bold"
+android:textSize="18sp" />
+<TextView
+android:text="País: Hungría. Idioma: Húngaro. Moneda: HUF"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:id="@+id/textView1"
+android:layout_marginLeft="30dp"
+android:layout_weight="0.14" />
+<TextView
+android:text="1€ = 308 HUF; 10€ = 3081 HUF; "
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:id="@+id/textView1"
+android:layout_marginLeft="50dp"
+android:layout_weight="0.14" />
+<TextView
+android:text="1000 HUF = 3,25€; 5000 CZK = 16,2€; "
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:id="@+id/textView1"
+android:layout_marginLeft="50dp"
+android:layout_weight="0.14" />
+
+<TextView
+android:text="BpArt Hostel Budapest: Üllői út 11-13"
+android:layout_width="265dp"
+android:layout_height="match_parent"
+android:id="@+id/textView8"
+android:layout_marginLeft="70dp" />
+
+<TextView
+android:text="Kalvin Ter: Metro M3 - Bus 9,15,115,83,909,914/A,950/A,979/A - Tranvía 47/B,49"
+android:layout_width="265dp"
+android:layout_height="match_parent"
+android:id="@+id/textView9"
+android:layout_marginLeft="90dp" />
+
+<com.viajes.gym.viajesgym.TouchHighlightImageButton
+android:id="@+id/thumb_button_4"
+android:layout_width="150dp"
+android:layout_height="125dp"
+android:layout_marginLeft="120dp"
+android:src="@drawable/buda1"
+android:scaleType="centerCrop"/>
+
+</LinearLayout>
+    </ScrollView>
+	<!-- This initially-hidden ImageView will hold the expanded/zoomed version of the
+         images above. Without transformations applied, it takes up the entire screen.
+         To achieve the "zoom" animation, this view's bounds are animated from the
+         bounds of the thumbnail buttons above, to its final laid-out bounds. The implementation
+         of this animation is in the ZoomActivity class. -->
+    <ImageView
+        android:id="@+id/expanded_image"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="invisible" />
+
+</FrameLayout>
